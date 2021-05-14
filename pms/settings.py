@@ -40,7 +40,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'PMS.urls'
+ROOT_URLCONF = 'pms.urls'
 
 TEMPLATES = [
     {
