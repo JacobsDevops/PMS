@@ -71,11 +71,11 @@ WSGI_APPLICATION = 'pms.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.environ['postgres'],
-        'USER': os.environ['giraffe-admin'],
-        'PASSWORD': os.environ['sifre4321'],
-        'HOST': os.environ['aa13n1m620lmt4y.ca8f9iezpecv.us-east-1.rds.amazonaws.com'],
-        'PORT': os.environ['5432'],
+        'NAME': 'postgres',
+        'USER': 'giraffe-admin',
+        'PASSWORD': 'sifre4321',
+        'HOST': 'aa13n1m620lmt4y.ca8f9iezpecv.us-east-1.rds.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
