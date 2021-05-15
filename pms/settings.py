@@ -67,17 +67,17 @@ WSGI_APPLICATION = 'pms.wsgi.application'
 
 
 
-if 'RDS_HOSTNAME' in os.environ:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': os.environ['postgres'],
-            'USER': os.environ['giraffe-admin'],
-            'PASSWORD': os.environ['sifre4321'],
-            'HOST': os.environ['aa13n1m620lmt4y.ca8f9iezpecv.us-east-1.rds.amazonaws.com'],
-            'PORT': os.environ['5432'],
-        }
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': os.environ['postgres'],
+        'USER': os.environ['giraffe-admin'],
+        'PASSWORD': os.environ['sifre4321'],
+        'HOST': os.environ['aa13n1m620lmt4y.ca8f9iezpecv.us-east-1.rds.amazonaws.com'],
+        'PORT': os.environ['5432'],
     }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
