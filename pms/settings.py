@@ -67,8 +67,8 @@ WSGI_APPLICATION = 'pms.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'stockdb',
-        'USER':'postgres',
+        'NAME': 'postgres',
+        'USER':'admin-giraffe',
         'PASSWORD':'sifre1234',
         'HOST':'aa16rt9bu0qvr5h.ca8f9iezpecv.us-east-1.rds.amazonaws.com:5432',
         'PORT':'5432',
