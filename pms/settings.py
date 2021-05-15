@@ -69,7 +69,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'stockdb',
         'USER':'postgres',
-        'PASSWORD':'şifre1234',
+        'PASSWORD':'sifre1234',
         'HOST':'localhost',
         'PORT':'5432',
     }
