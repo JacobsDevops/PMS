@@ -70,7 +70,7 @@ DATABASES = {
         'NAME': 'postgres',
         'USER':'giraffe-admin',
         'PASSWORD':'sifre4321',
-        'HOST':'aa16rt9bu0qvr5h.ca8f9iezpecv.us-east-1.rds.amazonaws.com',
+        'HOST':'aa13n1m620lmt4y.ca8f9iezpecv.us-east-1.rds.amazonaws.com',
         'PORT':'5432',
     }
 }
