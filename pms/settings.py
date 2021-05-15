@@ -70,7 +70,7 @@ DATABASES = {
         'NAME': 'stockdb',
         'USER':'postgres',
         'PASSWORD':'sifre1234',
-        'HOST':'localhost',
+        'HOST':'giraffe-pms-dev.us-east-1.elasticbeanstalk.com',
         'PORT':'5432',
     }
 }
